@@ -1,0 +1,119 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+ 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+ background-color: #61b563;
+ margin-top: 60px;
+}
+
+.main {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+
+}
+
+.container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.bar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.add {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aed9a9;
+}
+
+.input {
+    width: 70%;
+    padding: 10px;
+    border: #4CAF50;
+    border-radius: 4px;
+    font-weight: 700;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 1s, color 0.5s;
+}
+
+button:hover {
+    color: #4CAF50;
+    background-color: white;
+}
+.tasks {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+ul {
+    padding: 12px 5px;
+    list-style: none;
+    background-color: wheat;
+}
+
+li {
+    border: 2px solid #4CAF50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+li img{
+    height: 16px;
+    left: 1px;
+    border-right: 10px solid transparent;
+}
+
+
+/* Style for the scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #4CAF50;
+}
+.item1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.completed {
+    font-style: italic;
+    text-decoration: line-through;
+}
